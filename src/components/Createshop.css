@@ -1,0 +1,50 @@
+/* Add this to your styles.css or App.css file */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    margin-bottom: 15px;
+  }
+  
+  .control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .btn-secondary {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #bbb;
+  }
+  
